@@ -1,5 +1,0 @@
-/**
- *  Components are the basic building blocks of react apps. So react app will be a "Component tree".
- *  Always App component is the root component. Each component should return or render some JSX code.
- *  There are two types of Components
- */
