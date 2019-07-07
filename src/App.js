@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Person from './ComponentExample/Person';
+import UseStateExample from './ReactHooksExample/UseStateExample';
 
 class App extends Component {
   /**
@@ -36,6 +37,8 @@ class App extends Component {
         <Person name={this.state.persons[1].name} age={this.state.persons[1].age}></Person>
         <Person name={this.state.persons[2].name} age={this.state.persons[2].age}></Person>
         <p>{this.state.otherStateValue}</p>
+
+        <UseStateExample></UseStateExample>
       </div>
     );
 
