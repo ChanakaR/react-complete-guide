@@ -1,6 +1,6 @@
 /**
  *  this is a functional component
- *  
+ *  <Person name="Bob" age="24">This is the chidlren components</Person>
  */
 
 import React from 'react';
