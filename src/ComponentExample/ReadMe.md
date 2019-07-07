@@ -11,3 +11,7 @@ also reffered to as "containers", "smart components" or "stateful components".
 
 ## Use Dynamic content
 We can use props (properties to handle dynamic content inside a component). <Person name="Bob" age="25"> and then we can get these data from the component as {props.name} or {props.age}.
+
+### Use children HTML via props
+<Person name="Bob">This is the children code</Person>
+use it from the component via props as {props.children}
